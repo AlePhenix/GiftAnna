@@ -1,0 +1,94 @@
+* {
+    font-family: "Poppins", serif;
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+body{
+    background-color: tomato;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: .5em;
+
+}
+h2{
+    font-size: 30px;
+    margin-bottom: .5em;
+
+}
+p{
+    font-size: 18px;
+    margin-bottom: 1.5em;
+}
+button {
+    width: 80px;
+    padding: 20px;
+    font-size: 16px;
+    background-color: rgb(254, 141, 121);
+    border-radius: 10px;
+    border: none;
+}
+button:hover {
+    background-color: rgb(246, 116, 93);
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: tomato;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    padding: 30px 0;
+}
+#lenguajeSection h1{
+    margin: 0 0 10px 30px;
+}
+#lenguajeSection .title {
+    font-size: 24px;
+}
+
+#lenguajeSection h2{
+    margin: 0 20px 0 30px;
+}
+#lenguajeSection p{
+    margin: 0 20px 0 30px;
+}
+
+#lenguajeSection .container div {
+    margin-bottom: 80px;
+}
+
+#lenguajeSection .container .btns {
+    display: flex;
+    padding: 0 30px;
+    gap: 20px;
+}
+
+
+
+#italianSection .title{
+    width: 80%;
+    margin-bottom: 80px;
+}
+
+
+
+#spanishSection .container{
+    padding-bottom: 60px;
+}
+.leaterTitle{
+    margin-bottom: 35px ;
+}
+#spanishSection button{
+    margin-top: 20px;
+}
